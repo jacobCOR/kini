@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96BCBB25286824F700BFE2B2 /* kiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB24286824F700BFE2B2 /* kiniApp.swift */; };
+		96BCBB27286824F700BFE2B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB26286824F700BFE2B2 /* ContentView.swift */; };
+		96BCBB29286824F800BFE2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BCBB28286824F800BFE2B2 /* Assets.xcassets */; };
+		96BCBB2C286824F800BFE2B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BCBB2B286824F800BFE2B2 /* Preview Assets.xcassets */; };
+		96BCBB2E286824F800BFE2B2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB2D286824F800BFE2B2 /* Persistence.swift */; };
+		96BCBB31286824F800BFE2B2 /* kini.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB2F286824F800BFE2B2 /* kini.xcdatamodeld */; };
+		96BCBB3C286824F800BFE2B2 /* kiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB3B286824F800BFE2B2 /* kiniTests.swift */; };
+		96BCBB46286824F800BFE2B2 /* kiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB45286824F800BFE2B2 /* kiniUITests.swift */; };
+		96BCBB48286824F800BFE2B2 /* kiniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB47286824F800BFE2B2 /* kiniUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96BCBB38286824F800BFE2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96BCBB19286824F600BFE2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BCBB20286824F700BFE2B2;
+			remoteInfo = kini;
+		};
+		96BCBB42286824F800BFE2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96BCBB19286824F600BFE2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BCBB20286824F700BFE2B2;
+			remoteInfo = kini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96BCBB21286824F700BFE2B2 /* kini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BCBB24286824F700BFE2B2 /* kiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiniApp.swift; sourceTree = "<group>"; };
+		96BCBB26286824F700BFE2B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96BCBB28286824F800BFE2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96BCBB2B286824F800BFE2B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96BCBB2D286824F800BFE2B2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		96BCBB30286824F800BFE2B2 /* kini.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kini.xcdatamodel; sourceTree = "<group>"; };
+		96BCBB32286824F800BFE2B2 /* kini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kini.entitlements; sourceTree = "<group>"; };
+		96BCBB37286824F800BFE2B2 /* kiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BCBB3B286824F800BFE2B2 /* kiniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiniTests.swift; sourceTree = "<group>"; };
+		96BCBB41286824F800BFE2B2 /* kiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BCBB45286824F800BFE2B2 /* kiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiniUITests.swift; sourceTree = "<group>"; };
+		96BCBB47286824F800BFE2B2 /* kiniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96BCBB1E286824F700BFE2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BCBB34286824F800BFE2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BCBB3E286824F800BFE2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96BCBB18286824F600BFE2B2 = {
+			isa = PBXGroup;
+			children = (
+				96BCBB23286824F700BFE2B2 /* kini */,
+				96BCBB3A286824F800BFE2B2 /* kiniTests */,
+				96BCBB44286824F800BFE2B2 /* kiniUITests */,
+				96BCBB22286824F700BFE2B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96BCBB22286824F700BFE2B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB21286824F700BFE2B2 /* kini.app */,
+				96BCBB37286824F800BFE2B2 /* kiniTests.xctest */,
+				96BCBB41286824F800BFE2B2 /* kiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96BCBB23286824F700BFE2B2 /* kini */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB24286824F700BFE2B2 /* kiniApp.swift */,
+				96BCBB26286824F700BFE2B2 /* ContentView.swift */,
+				96BCBB28286824F800BFE2B2 /* Assets.xcassets */,
+				96BCBB2D286824F800BFE2B2 /* Persistence.swift */,
+				96BCBB32286824F800BFE2B2 /* kini.entitlements */,
+				96BCBB2F286824F800BFE2B2 /* kini.xcdatamodeld */,
+				96BCBB2A286824F800BFE2B2 /* Preview Content */,
+			);
+			path = kini;
+			sourceTree = "<group>";
+		};
+		96BCBB2A286824F800BFE2B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB2B286824F800BFE2B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96BCBB3A286824F800BFE2B2 /* kiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB3B286824F800BFE2B2 /* kiniTests.swift */,
+			);
+			path = kiniTests;
+			sourceTree = "<group>";
+		};
+		96BCBB44286824F800BFE2B2 /* kiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB45286824F800BFE2B2 /* kiniUITests.swift */,
+				96BCBB47286824F800BFE2B2 /* kiniUITestsLaunchTests.swift */,
+			);
+			path = kiniUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96BCBB20286824F700BFE2B2 /* kini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BCBB4B286824F800BFE2B2 /* Build configuration list for PBXNativeTarget "kini" */;
+			buildPhases = (
+				96BCBB1D286824F700BFE2B2 /* Sources */,
+				96BCBB1E286824F700BFE2B2 /* Frameworks */,
+				96BCBB1F286824F700BFE2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kini;
+			productName = kini;
+			productReference = 96BCBB21286824F700BFE2B2 /* kini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96BCBB36286824F800BFE2B2 /* kiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BCBB4E286824F800BFE2B2 /* Build configuration list for PBXNativeTarget "kiniTests" */;
+			buildPhases = (
+				96BCBB33286824F800BFE2B2 /* Sources */,
+				96BCBB34286824F800BFE2B2 /* Frameworks */,
+				96BCBB35286824F800BFE2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BCBB39286824F800BFE2B2 /* PBXTargetDependency */,
+			);
+			name = kiniTests;
+			productName = kiniTests;
+			productReference = 96BCBB37286824F800BFE2B2 /* kiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96BCBB40286824F800BFE2B2 /* kiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BCBB51286824F800BFE2B2 /* Build configuration list for PBXNativeTarget "kiniUITests" */;
+			buildPhases = (
+				96BCBB3D286824F800BFE2B2 /* Sources */,
+				96BCBB3E286824F800BFE2B2 /* Frameworks */,
+				96BCBB3F286824F800BFE2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BCBB43286824F800BFE2B2 /* PBXTargetDependency */,
+			);
+			name = kiniUITests;
+			productName = kiniUITests;
+			productReference = 96BCBB41286824F800BFE2B2 /* kiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96BCBB19286824F600BFE2B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					96BCBB20286824F700BFE2B2 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					96BCBB36286824F800BFE2B2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96BCBB20286824F700BFE2B2;
+					};
+					96BCBB40286824F800BFE2B2 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96BCBB20286824F700BFE2B2;
+					};
+				};
+			};
+			buildConfigurationList = 96BCBB1C286824F600BFE2B2 /* Build configuration list for PBXProject "kini" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96BCBB18286824F600BFE2B2;
+			productRefGroup = 96BCBB22286824F700BFE2B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96BCBB20286824F700BFE2B2 /* kini */,
+				96BCBB36286824F800BFE2B2 /* kiniTests */,
+				96BCBB40286824F800BFE2B2 /* kiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96BCBB1F286824F700BFE2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BCBB2C286824F800BFE2B2 /* Preview Assets.xcassets in Resources */,
+				96BCBB29286824F800BFE2B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BCBB35286824F800BFE2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BCBB3F286824F800BFE2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BCBB1D286824F700BFE2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BCBB31286824F800BFE2B2 /* kini.xcdatamodeld in Sources */,
+				96BCBB2E286824F800BFE2B2 /* Persistence.swift in Sources */,
+				96BCBB27286824F700BFE2B2 /* ContentView.swift in Sources */,
+				96BCBB25286824F700BFE2B2 /* kiniApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BCBB33286824F800BFE2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BCBB3C286824F800BFE2B2 /* kiniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BCBB3D286824F800BFE2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BCBB46286824F800BFE2B2 /* kiniUITests.swift in Sources */,
+				96BCBB48286824F800BFE2B2 /* kiniUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96BCBB39286824F800BFE2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96BCBB20286824F700BFE2B2 /* kini */;
+			targetProxy = 96BCBB38286824F800BFE2B2 /* PBXContainerItemProxy */;
+		};
+		96BCBB43286824F800BFE2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96BCBB20286824F700BFE2B2 /* kini */;
+			targetProxy = 96BCBB42286824F800BFE2B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96BCBB49286824F800BFE2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96BCBB4A286824F800BFE2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		96BCBB4C286824F800BFE2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kini/kini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kini/Preview Content\"";
+				DEVELOPMENT_TEAM = 84AKJ98LV5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kinilune.kini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		96BCBB4D286824F800BFE2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kini/kini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kini/Preview Content\"";
+				DEVELOPMENT_TEAM = 84AKJ98LV5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kinilune.kini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		96BCBB4F286824F800BFE2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84AKJ98LV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kinilune.kiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kini.app/Contents/MacOS/kini";
+			};
+			name = Debug;
+		};
+		96BCBB50286824F800BFE2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84AKJ98LV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kinilune.kiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kini.app/Contents/MacOS/kini";
+			};
+			name = Release;
+		};
+		96BCBB52286824F800BFE2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84AKJ98LV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kinilune.kiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = kini;
+			};
+			name = Debug;
+		};
+		96BCBB53286824F800BFE2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84AKJ98LV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kinilune.kiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = kini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96BCBB1C286824F600BFE2B2 /* Build configuration list for PBXProject "kini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BCBB49286824F800BFE2B2 /* Debug */,
+				96BCBB4A286824F800BFE2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BCBB4B286824F800BFE2B2 /* Build configuration list for PBXNativeTarget "kini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BCBB4C286824F800BFE2B2 /* Debug */,
+				96BCBB4D286824F800BFE2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BCBB4E286824F800BFE2B2 /* Build configuration list for PBXNativeTarget "kiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BCBB4F286824F800BFE2B2 /* Debug */,
+				96BCBB50286824F800BFE2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BCBB51286824F800BFE2B2 /* Build configuration list for PBXNativeTarget "kiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BCBB52286824F800BFE2B2 /* Debug */,
+				96BCBB53286824F800BFE2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96BCBB2F286824F800BFE2B2 /* kini.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96BCBB30286824F800BFE2B2 /* kini.xcdatamodel */,
+			);
+			currentVersion = 96BCBB30286824F800BFE2B2 /* kini.xcdatamodel */;
+			path = kini.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96BCBB19286824F600BFE2B2 /* Project object */;
+}

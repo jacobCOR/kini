@@ -8,14 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		96BCBB25286824F700BFE2B2 /* kiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB24286824F700BFE2B2 /* kiniApp.swift */; };
-		96BCBB27286824F700BFE2B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB26286824F700BFE2B2 /* ContentView.swift */; };
 		96BCBB29286824F800BFE2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BCBB28286824F800BFE2B2 /* Assets.xcassets */; };
 		96BCBB2C286824F800BFE2B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BCBB2B286824F800BFE2B2 /* Preview Assets.xcassets */; };
-		96BCBB2E286824F800BFE2B2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB2D286824F800BFE2B2 /* Persistence.swift */; };
 		96BCBB31286824F800BFE2B2 /* kini.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB2F286824F800BFE2B2 /* kini.xcdatamodeld */; };
 		96BCBB3C286824F800BFE2B2 /* kiniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB3B286824F800BFE2B2 /* kiniTests.swift */; };
 		96BCBB46286824F800BFE2B2 /* kiniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB45286824F800BFE2B2 /* kiniUITests.swift */; };
 		96BCBB48286824F800BFE2B2 /* kiniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB47286824F800BFE2B2 /* kiniUITestsLaunchTests.swift */; };
+		96BCBB57286828F500BFE2B2 /* KiniLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB56286828F500BFE2B2 /* KiniLaunchView.swift */; };
+		96BCBB5928682D2800BFE2B2 /* AddMangaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB5828682D2800BFE2B2 /* AddMangaView.swift */; };
+		96BCBB5B28682E4C00BFE2B2 /* MangaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB5A28682E4C00BFE2B2 /* MangaListView.swift */; };
+		96BCBB652868357800BFE2B2 /* MangaListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB642868357800BFE2B2 /* MangaListRow.swift */; };
+		96BCBB68286841B700BFE2B2 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 96BCBB67286841B700BFE2B2 /* SDWebImageSwiftUI */; };
+		96BCBB6E2868F1A300BFE2B2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB6D2868F1A300BFE2B2 /* DataController.swift */; };
+		96BCBB7128691B8300BFE2B2 /* TestImplmentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB7028691B8300BFE2B2 /* TestImplmentation.swift */; };
+		96BCBB7328691C5600BFE2B2 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB7228691C5600BFE2B2 /* TestData.swift */; };
+		96BCBB7528691F0300BFE2B2 /* MangaTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB7428691F0300BFE2B2 /* MangaTestData.swift */; };
+		96BCBB7728692C5800BFE2B2 /* MangaChapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB7628692C5800BFE2B2 /* MangaChapterView.swift */; };
+		96BCBB792869337800BFE2B2 /* MangaListLeftPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB782869337800BFE2B2 /* MangaListLeftPane.swift */; };
+		96BCBB7B286933B100BFE2B2 /* MangaListRightPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BCBB7A286933B100BFE2B2 /* MangaListRightPane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +48,8 @@
 /* Begin PBXFileReference section */
 		96BCBB21286824F700BFE2B2 /* kini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BCBB24286824F700BFE2B2 /* kiniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiniApp.swift; sourceTree = "<group>"; };
-		96BCBB26286824F700BFE2B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96BCBB28286824F800BFE2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96BCBB2B286824F800BFE2B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		96BCBB2D286824F800BFE2B2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		96BCBB30286824F800BFE2B2 /* kini.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kini.xcdatamodel; sourceTree = "<group>"; };
 		96BCBB32286824F800BFE2B2 /* kini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kini.entitlements; sourceTree = "<group>"; };
 		96BCBB37286824F800BFE2B2 /* kiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +57,17 @@
 		96BCBB41286824F800BFE2B2 /* kiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BCBB45286824F800BFE2B2 /* kiniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiniUITests.swift; sourceTree = "<group>"; };
 		96BCBB47286824F800BFE2B2 /* kiniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96BCBB56286828F500BFE2B2 /* KiniLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiniLaunchView.swift; sourceTree = "<group>"; };
+		96BCBB5828682D2800BFE2B2 /* AddMangaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMangaView.swift; sourceTree = "<group>"; };
+		96BCBB5A28682E4C00BFE2B2 /* MangaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaListView.swift; sourceTree = "<group>"; };
+		96BCBB642868357800BFE2B2 /* MangaListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaListRow.swift; sourceTree = "<group>"; };
+		96BCBB6D2868F1A300BFE2B2 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		96BCBB7028691B8300BFE2B2 /* TestImplmentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImplmentation.swift; sourceTree = "<group>"; };
+		96BCBB7228691C5600BFE2B2 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		96BCBB7428691F0300BFE2B2 /* MangaTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaTestData.swift; sourceTree = "<group>"; };
+		96BCBB7628692C5800BFE2B2 /* MangaChapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaChapterView.swift; sourceTree = "<group>"; };
+		96BCBB782869337800BFE2B2 /* MangaListLeftPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaListLeftPane.swift; sourceTree = "<group>"; };
+		96BCBB7A286933B100BFE2B2 /* MangaListRightPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaListRightPane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BCBB68286841B700BFE2B2 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +119,12 @@
 		96BCBB23286824F700BFE2B2 /* kini */ = {
 			isa = PBXGroup;
 			children = (
+				96BCBB6F28691B7300BFE2B2 /* Implementation */,
 				96BCBB24286824F700BFE2B2 /* kiniApp.swift */,
-				96BCBB26286824F700BFE2B2 /* ContentView.swift */,
+				96BCBB552868276F00BFE2B2 /* Model */,
+				96BCBB542868276700BFE2B2 /* Views */,
+				96BCBB632868337600BFE2B2 /* Resources */,
 				96BCBB28286824F800BFE2B2 /* Assets.xcassets */,
-				96BCBB2D286824F800BFE2B2 /* Persistence.swift */,
 				96BCBB32286824F800BFE2B2 /* kini.entitlements */,
 				96BCBB2F286824F800BFE2B2 /* kini.xcdatamodeld */,
 				96BCBB2A286824F800BFE2B2 /* Preview Content */,
@@ -135,6 +157,69 @@
 			path = kiniUITests;
 			sourceTree = "<group>";
 		};
+		96BCBB542868276700BFE2B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB7C2869695100BFE2B2 /* Helper */,
+				96BCBB5C28682F0400BFE2B2 /* MangaList */,
+				96BCBB56286828F500BFE2B2 /* KiniLaunchView.swift */,
+				96BCBB5828682D2800BFE2B2 /* AddMangaView.swift */,
+				96BCBB7628692C5800BFE2B2 /* MangaChapterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96BCBB552868276F00BFE2B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB6C2868F19600BFE2B2 /* Coredata */,
+				96BCBB7228691C5600BFE2B2 /* TestData.swift */,
+				96BCBB7428691F0300BFE2B2 /* MangaTestData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96BCBB5C28682F0400BFE2B2 /* MangaList */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB5A28682E4C00BFE2B2 /* MangaListView.swift */,
+				96BCBB642868357800BFE2B2 /* MangaListRow.swift */,
+				96BCBB782869337800BFE2B2 /* MangaListLeftPane.swift */,
+				96BCBB7A286933B100BFE2B2 /* MangaListRightPane.swift */,
+			);
+			path = MangaList;
+			sourceTree = "<group>";
+		};
+		96BCBB632868337600BFE2B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		96BCBB6C2868F19600BFE2B2 /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB6D2868F1A300BFE2B2 /* DataController.swift */,
+			);
+			path = Coredata;
+			sourceTree = "<group>";
+		};
+		96BCBB6F28691B7300BFE2B2 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				96BCBB7028691B8300BFE2B2 /* TestImplmentation.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		96BCBB7C2869695100BFE2B2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +236,9 @@
 			dependencies = (
 			);
 			name = kini;
+			packageProductDependencies = (
+				96BCBB67286841B700BFE2B2 /* SDWebImageSwiftUI */,
+			);
 			productName = kini;
 			productReference = 96BCBB21286824F700BFE2B2 /* kini.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +311,9 @@
 				Base,
 			);
 			mainGroup = 96BCBB18286824F600BFE2B2;
+			packageReferences = (
+				96BCBB66286841B700BFE2B2 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 96BCBB22286824F700BFE2B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +356,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BCBB7528691F0300BFE2B2 /* MangaTestData.swift in Sources */,
+				96BCBB7328691C5600BFE2B2 /* TestData.swift in Sources */,
+				96BCBB652868357800BFE2B2 /* MangaListRow.swift in Sources */,
+				96BCBB5B28682E4C00BFE2B2 /* MangaListView.swift in Sources */,
+				96BCBB7728692C5800BFE2B2 /* MangaChapterView.swift in Sources */,
+				96BCBB792869337800BFE2B2 /* MangaListLeftPane.swift in Sources */,
+				96BCBB57286828F500BFE2B2 /* KiniLaunchView.swift in Sources */,
+				96BCBB6E2868F1A300BFE2B2 /* DataController.swift in Sources */,
 				96BCBB31286824F800BFE2B2 /* kini.xcdatamodeld in Sources */,
-				96BCBB2E286824F800BFE2B2 /* Persistence.swift in Sources */,
-				96BCBB27286824F700BFE2B2 /* ContentView.swift in Sources */,
+				96BCBB7B286933B100BFE2B2 /* MangaListRightPane.swift in Sources */,
+				96BCBB5928682D2800BFE2B2 /* AddMangaView.swift in Sources */,
 				96BCBB25286824F700BFE2B2 /* kiniApp.swift in Sources */,
+				96BCBB7128691B8300BFE2B2 /* TestImplmentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = kini/kini.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -451,6 +552,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = kini/kini.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -584,6 +686,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96BCBB66286841B700BFE2B2 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96BCBB67286841B700BFE2B2 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96BCBB66286841B700BFE2B2 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		96BCBB2F286824F800BFE2B2 /* kini.xcdatamodeld */ = {
